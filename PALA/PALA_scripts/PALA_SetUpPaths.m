@@ -16,11 +16,11 @@ clear all;close('all')
 
 % DEFINE THE ADDONS DIRECTORY ON YOUR COMPUTER
 
-PALA_addons_folder = 'D:\PALA_test\PALA'; % location of the addons folder
+PALA_addons_folder = '/Users/jihwan/Workspace/Postdoc/Projects/PALA/PALA'; % location of the addons folder
 
 % DEFINE THE DATA DIRECTORY ON YOUR COMPUTER
 
-PALA_data_folder = 'D:\PALA_test\';
+PALA_data_folder = '/Users/jihwan/Workspace/Postdoc/Projects/PALA/data';
 
 addpath(genpath(PALA_addons_folder))
 
